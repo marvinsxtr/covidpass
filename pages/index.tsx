@@ -39,7 +39,15 @@ function Index(): JSX.Element {
             <Page content={
                 <div className="space-y-5">
                     <Card content={
-                        <p>{t('common:subtitle')}</p>
+                        <>
+                            <p>
+                                {t('common:note')}
+                                :&nbsp;
+                                <a className="underline" href="https://support.apple.com/HT212752">
+                                    {t('common:noteLink')}
+                                </a>
+                            </p>
+                        </>
                     }/>
                 </div>
             }/>
