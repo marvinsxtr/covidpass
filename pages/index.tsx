@@ -2,7 +2,6 @@ import {NextSeo} from 'next-seo';
 import {useTranslation} from 'next-i18next';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 
-import Form from '../components/Form';
 import Card from '../components/Card';
 import Page from '../components/Page';
 
@@ -42,7 +41,6 @@ function Index(): JSX.Element {
                     <Card content={
                         <p>{t('common:subtitle')}</p>
                     }/>
-                    <Form/>
                 </div>
             }/>
         </>

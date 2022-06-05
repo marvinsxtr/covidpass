@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /pass
-Disallow: /pass/note
